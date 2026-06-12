@@ -1,0 +1,11 @@
+{
+  "database_url_env": "DATABASE_URL",
+  "database_url_provided": false,
+  "total_corrections": 2,
+  "training_eligible": 0,
+  "metadata_only": 2,
+  "review_jsonl": "evaluation/exports/latest/corrections_review.jsonl",
+  "review_csv": "evaluation/exports/latest/corrections_review.csv",
+  "training_jsonl": "evaluation/exports/latest/training_eligible.jsonl",
+  "notes": "Training-ready export excludes rows without audio_reference or without a deterministic corrected_transcript. Periodic fine-tuning is not triggered automatically."
+}

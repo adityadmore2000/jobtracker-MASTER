@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Job Tracker Capture",
+  "version": "0.1.0",
+  "description": "Capture the current tab title and URL for the local Job Tracker app.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Job Tracker"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ]
+}

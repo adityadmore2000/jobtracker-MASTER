@@ -1,0 +1,12 @@
+[submodule "jobtracker-BE"]
+	path = jobtracker-BE
+	url = git@github-adi:adityadmore2000/jobtracker-BE.git
+[submodule "jobtracker-FE"]
+	path = jobtracker-FE
+	url = git@github-adi:adityadmore2000/jobtracker-FE.git
+[submodule "whisper-service"]
+	path = whisper-service
+	url = git@github-adi:adityadmore2000/whisper-service.git
+[submodule "livekit-agent"]
+	path = livekit-agent
+	url = git@github-adi:adityadmore2000/livekit-agent.git

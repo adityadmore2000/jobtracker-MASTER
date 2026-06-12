@@ -1,0 +1,41 @@
+# Tool and editor internals
+.claude
+.agents
+.codex
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+htmlcov/
+.coverage
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+
+# Evaluation run outputs (large/generated artefacts)
+evaluation/runs/
+evaluation/reports/
+data/

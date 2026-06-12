@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Tracker</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Job Tracker</h1>
+
+      <section>
+        <h2>Current page</h2>
+        <dl>
+          <dt>Title</dt>
+          <dd id="pageTitle">Loading...</dd>
+          <dt>URL</dt>
+          <dd id="pageUrl">Loading...</dd>
+        </dl>
+      </section>
+
+      <p id="status" class="status">Idle</p>
+
+      <button id="sendButton" type="button">Send to Job Tracker</button>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
